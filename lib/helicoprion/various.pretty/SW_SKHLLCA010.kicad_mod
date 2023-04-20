@@ -40,6 +40,11 @@
   (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/SW_SKHLLC.step"
     (offset (xyz 0 3.25 2.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 180))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/lib/3dmodels/SKHLLC.STEP"
+    (offset (xyz 0 3.2 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
   )
 )

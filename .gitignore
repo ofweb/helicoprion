@@ -37,3 +37,5 @@ fabrication-output
 fabrication-output/*
 
 *.DS_Store
+
+lib/3dmodels/
