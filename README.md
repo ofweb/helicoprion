@@ -3,6 +3,9 @@
 The Helicoprion Keyboard is a 52-key diodeless, flippable, choc spaced, hotswap, aggressive column staggered, split keyboard powered by Pro Micro pin compatible board, eg a nice!nano or a KB2040.
 It does not support wireless controllers, but you can use a nice!nano wired if you want
 
+![left](https://github.com/ofweb/helicoprion/blob/main/images/left.png)
+![right](https://github.com/ofweb/helicoprion/blob/main/images/right.png)
+
 # Inspiration
 
 * [Sweep](https://github.com/davidphilipbarr/Sweep) The main inspiration is from the ferris sweep I started trying to used I needed more keys.
