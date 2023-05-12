@@ -30,6 +30,8 @@ If you want to see if this is right for you you can start with printing a paper 
 
 ## Bill of Materials (BOM)
 
+[interactive](https://github.com/ofweb/helicoprion/blob/main/bom/ibom.html)
+
 Quantity | Item
 --- | ---
 2 | Helicoprion PCB
