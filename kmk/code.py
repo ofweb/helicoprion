@@ -38,10 +38,10 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 keyboard.keymap = [
     [
-        KC.A,   KC.B,   KC.C,   KC.D,   KC.E,   KC.I,   KC.N1,          KC.TILD,    KC.L,   KC.M,   KC.N,               KC.O,            KC.P,            KC.Q
-        KC.F,   KC.G,   KC.H,   KC.I,   KC.J,   KC.J,   KC.N2,          KC.EXLM,    KC.R    KC.S,   KC.T,               KC.Y,            KC.V,            KC.X
-        KC.K,   KC.L,   KC.M,   KC.N,   KC.O,   KC.K,   KC.N3,          KC.AT,      KC.Y,   KC.Z,   KC.LALT(KC.QUOT),   KC.LALT(KC.O),   KC.LALT(KC.A),   KC.X
-        KC.N4,  KC.N5,  KC.N6,  KC.N7
+        KC.A,   KC.B,   KC.C,   KC.D,   KC.E,       KC.I,       KC.N1,          KC.TILD,    KC.L,       KC.M,       KC.N,       KC.O,               KC.P,           KC.Q,
+        KC.F,   KC.G,   KC.H,   KC.I,   KC.J,       KC.J,       KC.N2,          KC.EXLM,    KC.R        KC.S,       KC.T,       KC.Y,               KC.V,           KC.W,
+        KC.K,   KC.L,   KC.M,   KC.N,   KC.O,       KC.K,       KC.N3,          KC.AT,      KC.X,       KC.Y,       KC.Z,       KC.LALT(KC.QUOT),   KC.LALT(KC.O),  KC.LALT(KC.A),
+        KC.N4,  KC.N5,  KC.N6,  KC.N7,  KC.TRNS,    KC.TRNS,    KC.TRNS,        KC.TRNS,    KC.TRNS,    KC.TRNS,    KC.HASH,    KC.DLR,             KC.DLR,         KC.PERC
     ]
 ]
 
