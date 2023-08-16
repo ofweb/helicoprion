@@ -28,8 +28,6 @@ If you want to see if this is right for you you can start with printing a paper 
 * Very large thumb cluster - Let your thumb do more of the work.
 * Both SMD and THT diodes - Pick if you want the easier to solder or the smaller diodes.
 
-# schematic
-![schematic](https://github.com/ofweb/helicoprion/blob/main/images/schematic.png)
 
 ## Bill of Materials (BOM)
 
@@ -47,6 +45,16 @@ Quantity | Item
 1 | 3.5mm TRRS cable (not needed for nice!nano)
 4 | Pin headers (20 pin) or sockets
 2 | Reset Button (optional) ALPS SKHLLCA010 or footprint compatible
+
+# releases
+## V1
+### Errata: 
+ - sw9 connect pin 1 (square) to MCU pin 20 (row1)
+ - sw10 connect pin 1 (square) to MCU pin 19 (row2)
+ - MCU pin 10 to (col3) to MCU pin 10 (col3). The inner most pin is connected the outer most is not and need to be if you are using it.
+
+# schematic
+![schematic](https://github.com/ofweb/helicoprion/blob/main/images/schematic.png)
 
 ## External footprints and symbols used
 
