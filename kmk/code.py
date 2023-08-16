@@ -3,23 +3,23 @@ import board
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
-from kmk.modules.split import Split, SplitType
+#from kmk.modules.split import Split, SplitType
 
 
 keyboard = KMKKeyboard()
 
 # https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/split_keyboards.md
 # https://github.com/KMKfw/kmk_firmware/blob/master/boards/kyria/main.py
-split = Split(  
-    split_side=None,
-    split_type=SplitType.UART,
-    uart_flip=True, #double check
-    data_pin=board.D1,
-    data_pin2=board.D0,
-    use_pio=False,
-    split_target_left=True
-)
-keyboard.modules.append(split)
+# split = Split(  
+#     split_side=None,
+#     split_type=SplitType.UART,
+#     uart_flip=True, #double check
+#     data_pin=board.D1,
+#     data_pin2=board.D0,
+#     use_pio=False,
+#     split_target_left=True
+# )
+# keyboard.modules.append(split)
 
 # vhttps://github.com/KMKfw/kmk_firmware/blob/master/docs/en/rgb.mdx``
 # rgb_ext = RGB(
@@ -38,10 +38,10 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 keyboard.keymap = [
     [
-        KC.A,   KC.B,   KC.C,   KC.D,   KC.E,       KC.I,       KC.N1,          KC.TILD,    KC.L,       KC.M,       KC.N,       KC.O,               KC.P,           KC.Q,
-        KC.F,   KC.G,   KC.H,   KC.I,   KC.J,       KC.J,       KC.N2,          KC.EXLM,    KC.R        KC.S,       KC.T,       KC.Y,               KC.V,           KC.W,
-        KC.K,   KC.L,   KC.M,   KC.N,   KC.O,       KC.K,       KC.N3,          KC.AT,      KC.X,       KC.Y,       KC.Z,       KC.LALT(KC.QUOT),   KC.LALT(KC.O),  KC.LALT(KC.A),
-        KC.N4,  KC.N5,  KC.N6,  KC.N7,  KC.TRNS,    KC.TRNS,    KC.TRNS,        KC.TRNS,    KC.TRNS,    KC.TRNS,    KC.HASH,    KC.DLR,             KC.DLR,         KC.PERC
+        KC.A,   KC.B,   KC.C,   KC.D,   KC.E,       KC.N0,      # KC.N1,       #   KC.TILD,    KC.L,       KC.M,       KC.N,       KC.O,               KC.P,           KC.Q,
+        KC.F,   KC.G,   KC.H,   KC.I,   KC.J,       KC.N1,     #  KC.N2,       #   KC.EXLM,    KC.R        KC.S,       KC.T,       KC.Y,               KC.V,           KC.W,
+        KC.K,   KC.L,   KC.M,   KC.N,   KC.O,       KC.N2,      # KC.N3,       #   KC.AT,      KC.X,       KC.Y,       KC.Z,       KC.LALT(KC.QUOT),   KC.LALT(KC.O),  KC.LALT(KC.A),
+        KC.N4,  KC.N5,  KC.N6,  KC.N7,  KC.N6,      KC.N7,    #  KC.N6,     #   KC.TRNS,    KC.TRNS,    KC.TRNS,    KC.HASH,    KC.DLR,             KC.DLR,         KC.PERC
     ]
 ]
 
