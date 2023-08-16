@@ -11,13 +11,13 @@ I don't expect this to by my last iteration on a keyboard so it is made to allow
 
 
 # Testing
-If you want to see if this is right for you you can start with printing a paper tester. If you have access to a 3d-printer you can print the step file form the repo and add you switches, this should give you a better indication on if it is right.
+If you want to see if this is right for you you can start with printing a paper tester (TODO). If you have access to a 3d-printer you can print the step file(TODO) from the repo and add you switches, this should give you a better indication on if it is right.
 
 # Inspiration
 
 * [Sweep](https://github.com/davidphilipbarr/Sweep) The main inspiration is from the ferris sweep I started trying to used I needed more keys.
 * [Hillside](https://github.com/mmccoyd/hillside) The very pretty promicro foot print and how to wire it.
-* [Torn](https://github.com/rtitmuss/torn) For not be afraid of showing th components and that look can be very sexy.
+* [Torn](https://github.com/rtitmuss/torn) For not be afraid of showing the components and that it can look very nice.
 
 ## Features
 
