@@ -1,0 +1,3 @@
+001:
+ - sw9 connect pin 1 (square) to MCU pin 20 (row1)
+ - sw10 connect pin 1 (square) to MCU pin 19 (row2)
